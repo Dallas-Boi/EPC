@@ -1,0 +1,707 @@
+[
+  {
+    "name": "Speeding laws",
+    "charges": [
+      {
+        "name": "(I) VC 22350 Unlawful Speed 1-10 MPH Over Speed Limit",
+        "minFine": 35,
+        "maxFine": 100
+      },
+      {
+        "name": "(I) VC 22350 Unlawful Speed 10-20 MPH Over Speed Limit",
+        "minFine": 100,
+        "maxFine": 200
+      },
+      {
+        "name": "(I) VC 22350 Unlawful Speed 20-30 MPH Over Speed Limit",
+        "minFine": 200,
+        "maxFine": 350
+      },
+      {
+        "name": "(I) VC 22350 Unlawful Speed 30+ MPH Over Speed Limit",
+        "minFine": 350,
+        "maxFine": 500
+      },
+      {
+        "name": "(I) VC 22348 Driving over 100+ MPH on a freeway",
+        "minFine": 500,
+        "maxFine": 1000
+      },
+      {
+        "name": "(I) VC 22400 Driving below minimum speeds",
+        "minFine": 238,
+        "maxFine": 238
+      },
+      {
+        "name": "(I) VC 22405 Excessive speed on a bridge or tunnel",
+        "minFine": 238,
+        "maxFine": 490
+      },
+      {
+        "name": "(I) VC 22406 Trucks speeding over 55 mph",
+        "minFine": 285,
+        "maxFine": 500
+      },
+      {
+        "name": "(I) VC 21654 Slow vehicles not driving on the right",
+        "minFine": 238,
+        "maxFine": 238
+      },
+      {
+        "name": "(I) VC 22350 Driving faster than is safe for conditions or circumstances",
+        "minFine": 35,
+        "maxFine": 500
+      }
+    ]
+  },
+  {
+    "name": "Speeding Warnings",
+    "charges": [
+      {
+        "name": "(W) VC 22350 Unlawful Speed 1-10 MPH Over Speed Limit",
+        "minFine": 0,
+        "maxFine": 0
+      },
+      {
+        "name": "(W) VC 22350 Unlawful Speed 10-20 MPH Over Speed Limit",
+        "minFine": 0,
+        "maxFine": 0
+      },
+      {
+        "name": "(W) VC 22350 Unlawful Speed 20-30 MPH Over Speed Limit",
+        "minFine": 0,
+        "maxFine": 0
+      },
+      {
+        "name": "(W) VC 22350 Unlawful Speed 30+ MPH Over Speed Limit",
+        "minFine": 0,
+        "maxFine": 0
+      },
+      {
+        "name": "(W) VC 22348 Driving over 100+ MPH on a freeway",
+        "minFine": 0,
+        "maxFine": 0
+      },
+      {
+        "name": "(W) VC 22400 Driving below minimum speeds",
+        "minFine": 0,
+        "maxFine": 0
+      },
+      {
+        "name": "(W) VC 22405 Excessive speed on a bridge or tunnel",
+        "minFine": 0,
+        "maxFine": 0
+      },
+      {
+        "name": "(W) VC 22406 Trucks speeding over 55 mph",
+        "minFine": 0,
+        "maxFine": 0
+      },
+      {
+        "name": "(W) VC 21654 Slow vehicles not driving on the right",
+        "minFine": 0,
+        "maxFine": 0
+      },
+      {
+        "name": "(W) VC 22350 Driving faster than is safe for conditions or circumstances",
+        "minFine": 0,
+        "maxFine": 0
+      }
+    ]
+  },
+  {
+    "name": "Signals/Signs",
+    "charges": [
+      {
+        "name": "(I) VC 21453 Running a red light",
+        "minFine": 35,
+        "maxFine": 100
+      },
+      {
+        "name": "(I) VC 21460 Crossing double yellow lines",
+        "minFine": 285,
+        "maxFine": 500
+      },
+      {
+        "name": "(I) VC 22108 Failure to signal before turning or changing lanes",
+        "minFine": 238,
+        "maxFine": 238
+      },
+      {
+        "name": "(I) VC 22450 Running a stop sign",
+        "minFine": 238,
+        "maxFine": 238
+      },
+      {
+        "name": "(I) VC 38300 Disobeying a sign, signal or traffic control device",
+        "minFine": 238,
+        "maxFine": 238
+      }
+    ]
+  },
+  {
+    "name": "Signals/Signs Warnings",
+    "charges": [
+      {
+        "name": "(W) VC 21453 Running a red light",
+        "minFine": 0,
+        "maxFine": 0
+      },
+      {
+        "name": "(W) VC 21460 Crossing double yellow lines",
+        "minFine": 0,
+        "maxFine": 0
+      },
+      {
+        "name": "(W) VC 22108 Failure to signal before turning or changing lanes",
+        "minFine": 0,
+        "maxFine": 0
+      },
+      {
+        "name": "(W) VC 22450 Running a stop sign",
+        "minFine": 0,
+        "maxFine": 0
+      },
+      {
+        "name": "(W) VC 38300 Disobeying a sign, signal or traffic control device",
+        "minFine": 0,
+        "maxFine": 0
+      }
+    ]
+  },
+  {
+    "name": "Unsafe Operation",
+    "charges": [
+      {
+        "name": "(I) VC 22100.5 Illegal U-Turn",
+        "minFine": 234,
+        "maxFine": 234
+      },
+      {
+        "name": "(I) VC 21209 Driving in bike lane",
+        "minFine": 238,
+        "maxFine": 238
+      },
+      {
+        "name": "(I) VC 21651(a) Crossing a divided highway",
+        "minFine": 238,
+        "maxFine": 238
+      },
+      {
+        "name": "(I) VC 21651(b) Driving on the wrong side of the road",
+        "minFine": 238,
+        "maxFine": 238
+      },
+      {
+        "name": "(I) VC 21658 Lane Straddling",
+        "minFine": 238,
+        "maxFine": 238
+      },
+      {
+        "name": "(I) VC 21663 Driving on sidewalk",
+        "minFine": 238,
+        "maxFine": 238
+      },
+      {
+        "name": "(I) VC 21703 Following too closely",
+        "minFine": 238,
+        "maxFine": 238
+      },
+      {
+        "name": "(I) VC 21750 Unsafe Passing",
+        "minFine": 238,
+        "maxFine": 238
+      },
+      {
+        "name": "(I) VC 21755 Unsafe passing on the right",
+        "minFine": 238,
+        "maxFine": 238
+      },
+      {
+        "name": "(I) VC 22106 Unsafe starting or backing",
+        "minFine": 238,
+        "maxFine": 238
+      },
+      {
+        "name": "(I) VC 22107 Unsafe lane changes",
+        "minFine": 234,
+        "maxFine": 234
+      },
+      {
+        "name": "(I) VC 22500 Improper parking, stopping or standing",
+        "minFine": 250,
+        "maxFine": 250
+      },
+      {
+        "name": "(I) VC 23123 Use of a handheld device while driving",
+        "minFine": 20,
+        "maxFine": 50
+      },
+      {
+        "name": "(I) VC 23222 Driving while possessing an open container of Alcohol or Marijuana",
+        "minFine": 100,
+        "maxFine": 150
+      }
+    ]
+  },
+  {
+    "name": "Unsafe Operation Warnings",
+    "charges": [
+      {
+        "name": "(W) VC 22100.5 Illegal U-Turn",
+        "minFine": 0,
+        "maxFine": 0
+      },
+      {
+        "name": "(W) VC 21209 Driving in bike lane",
+        "minFine": 0,
+        "maxFine": 0
+      },
+      {
+        "name": "(W) VC 21651(a) Crossing a divided highway",
+        "minFine": 0,
+        "maxFine": 0
+      },
+      {
+        "name": "(W) VC 21651(b) Driving on the wrong side of the road",
+        "minFine": 0,
+        "maxFine": 0
+      },
+      {
+        "name": "(W) VC 21658 Lane Straddling",
+        "minFine": 0,
+        "maxFine": 0
+      },
+      {
+        "name": "(W) VC 21663 Driving on sidewalk",
+        "minFine": 0,
+        "maxFine": 0
+      },
+      {
+        "name": "(W) VC 21703 Following too closely",
+        "minFine": 0,
+        "maxFine": 0
+      },
+      {
+        "name": "(W) VC 21750 Unsafe Passing",
+        "minFine": 0,
+        "maxFine": 0
+      },
+      {
+        "name": "(W) VC 21755 Unsafe passing on the right",
+        "minFine": 0,
+        "maxFine": 0
+      },
+      {
+        "name": "(W) VC 22106 Unsafe starting or backing",
+        "minFine": 0,
+        "maxFine": 0
+      },
+      {
+        "name": "(W) VC 22107 Unsafe lane changes",
+        "minFine": 0,
+        "maxFine": 0
+      },
+      {
+        "name": "(W) VC 22500 Improper parking, stopping or standing",
+        "minFine": 0,
+        "maxFine": 0
+      },
+      {
+        "name": "(W) VC 23123 Use of a handheld device while driving",
+        "minFine": 0,
+        "maxFine": 0
+      }
+    ]
+  },
+  {
+    "name": "Yielding",
+    "charges": [
+      {
+        "name": "(I) VC 21800(a) Failure to yield",
+        "minFine": 238,
+        "maxFine": 238
+      },
+      {
+        "name": "(I) VC 21801 Failure to yield when making a left or u-turn",
+        "minFine": 238,
+        "maxFine": 238
+      },
+      {
+        "name": "(I) VC 21804 Failure to yield entering highway from alley or driveway",
+        "minFine": 238,
+        "maxFine": 238
+      },
+      {
+        "name": "(I) VC 21806 Failure to yield to an emergency vehicle",
+        "minFine": 490,
+        "maxFine": 490
+      },
+      {
+        "name": "(I) VC 21950 Failure to yield to a pedestrian",
+        "minFine": 238,
+        "maxFine": 238
+      }
+    ]
+  },
+  {
+    "name": "Yielding Warnings",
+    "charges": [
+      {
+        "name": "(W) VC 21800(a) Failure to yield",
+        "minFine": 0,
+        "maxFine": 0
+      },
+      {
+        "name": "(W) VC 21801 Failure to yield when making a left or u-turn",
+        "minFine": 0,
+        "maxFine": 0
+      },
+      {
+        "name": "(W) VC 21804 Failure to yield entering highway from alley or driveway",
+        "minFine": 0,
+        "maxFine": 0
+      },
+      {
+        "name": "(W) VC 21806 Failure to yield to an emergency vehicle",
+        "minFine": 0,
+        "maxFine": 0
+      },
+      {
+        "name": "(W) VC 21950 Failure to yield to a pedestrian",
+        "minFine": 0,
+        "maxFine": 0
+      }
+    ]
+  },
+  {
+    "name": "Pedal Bikes/Motorcycles",
+    "charges": [
+      {
+        "name": "(I) VC 21200 Violating motor vehicle laws on a bicycle",
+        "minFine": 234,
+        "maxFine": 234
+      },
+      {
+        "name": "(I) VC 21200.5 Cycling under the influence",
+        "minFine": 250,
+        "maxFine": 250
+      },
+      {
+        "name": "(I) VC 27803 Operating a motorcycle without a helmet",
+        "minFine": 197,
+        "maxFine": 197
+      }
+    ]
+  },
+  {
+    "name": "Pedal Bikes/Motorcycles Warnings",
+    "charges": [
+      {
+        "name": "(W) VC 21200 Violating motor vehicle laws on a bicycle",
+        "minFine": 0,
+        "maxFine": 0
+      },
+      {
+        "name": "(W) VC 27803 Operating a motorcycle without a helmet",
+        "minFine": 0,
+        "maxFine": 0
+      }
+    ]
+  },
+  {
+    "name": "Equipment",
+    "charges": [
+      {
+        "name": "(I) VC 24002 Operating an unsafe vehicle",
+        "minFine": 238,
+        "maxFine": 238
+      },
+      {
+        "name": "(I) VC 24250 Driving without headlights",
+        "minFine": 230,
+        "maxFine": 230
+      },
+      {
+        "name": "(I) VC 24409 Failure to dim headlights",
+        "minFine": 238,
+        "maxFine": 238
+      },
+      {
+        "name": "(I) VC 26708 Illegal window tint",
+        "minFine": 25,
+        "maxFine": 197
+      },
+      {
+        "name": "(I) VC 27315 Failure to wear a seatbelt",
+        "minFine": 20,
+        "maxFine": 50
+      },
+      {
+        "name": "(I) VC 5200 Failure to mount license plate",
+        "minFine": 196,
+        "maxFine": 196
+      },
+      {
+        "name": "(I) VC 5201 Failure to properly display license plate",
+        "minFine": 196,
+        "maxFine": 196
+      }
+    ]
+  },
+  {
+    "name": "Equipment Warnings",
+    "charges": [
+      {
+        "name": "(W) VC 24002 Operating an unsafe vehicle",
+        "minFine": 0,
+        "maxFine": 0
+      },
+      {
+        "name": "(W) VC 24250 Driving without headlights",
+        "minFine": 0,
+        "maxFine": 0
+      },
+      {
+        "name": "(W) VC 24409 Failure to dim headlights",
+        "minFine": 0,
+        "maxFine": 0
+      },
+      {
+        "name": "(W) VC 26708 Illegal window tint",
+        "minFine": 0,
+        "maxFine": 0
+      },
+      {
+        "name": "(W) VC 27315 Failure to wear a seatbelt",
+        "minFine": 0,
+        "maxFine": 0
+      },
+      {
+        "name": "(W) VC 5200 Failure to mount license plate",
+        "minFine": 0,
+        "maxFine": 0
+      },
+      {
+        "name": "(W) VC 5201 Failure to properly display license plate",
+        "minFine": 0,
+        "maxFine": 0
+      }
+    ]
+  },
+  {
+    "name": "Documents",
+    "charges": [
+      {
+        "name": "(I) VC 4000a1 Driving unregistered vehicle",
+        "minFine": 280,
+        "maxFine": 280
+      },
+      {
+        "name": "(I) VC 4462 Failure to provide proof of registration",
+        "minFine": 280,
+        "maxFine": 280
+      },
+      {
+        "name": "(I) VC 4462 Driving while Registration Expired",
+        "minFine": 250,
+        "maxFine": 250
+      },
+      {
+        "name": "(I) VC 12500(a) Driving without a license",
+        "minFine": 250,
+        "maxFine": 250
+      },
+      {
+        "name": "(I) VC 12951 Failure to present drivers license",
+        "minFine": 250,
+        "maxFine": 250
+      },
+      {
+        "name": "(I) VC 12500 Driving while License Expired",
+        "minFine": 250,
+        "maxFine": 250
+      },
+      {
+        "name": "(I) VC 16028(a) Failure to provide proof of insurance",
+        "minFine": 100,
+        "maxFine": 200
+      },
+      {
+        "name": "(I) VC 16056 Driving without Insurance",
+        "minFine": 900,
+        "maxFine": 1200
+      },
+      {
+        "name": "(I) VC 16029 Driving while Insurance Expired",
+        "minFine": 250,
+        "maxFine": 250
+      }
+    ]
+  },
+  {
+    "name": "Document Warnings",
+    "charges": [
+      {
+        "name": "(W) VC 4000a1 Driving unregistered vehicle",
+        "minFine": 0,
+        "maxFine": 0
+      },
+      {
+        "name": "(W) VC 4462 Failure to provide proof of registration",
+        "minFine": 0,
+        "maxFine": 0
+      },
+      {
+        "name": "(W) VC 12500(a) Driving without a license",
+        "minFine": 0,
+        "maxFine": 0
+      },
+      {
+        "name": "(W) VC 12951 Failure to present drivers license",
+        "minFine": 0,
+        "maxFine": 0
+      },
+      {
+        "name": "(W) VC 16028(a) Failure to provide proof of insurance",
+        "minFine": 0,
+        "maxFine": 0
+      },
+      {
+        "name": "(W) VC 16056 Driving without Insurance",
+        "minFine": 0,
+        "maxFine": 0
+      }
+    ]
+  },
+  {
+    "name": "Commercial Vehicle Enforcement",
+    "charges": [
+      {
+        "name": "(I) VC 24506 Failure to log hours",
+        "minFine": 100,
+        "maxFine": 1000
+      },
+      {
+        "name": "(I) VC 24506 Failure to maintain logs",
+        "minFine": 100,
+        "maxFine": 1000
+      },
+      {
+        "name": "(I) VC 21702 Driving over maximum hours",
+        "minFine": 100,
+        "maxFine": 1000
+      },
+      {
+        "name": "(I) VC 35400 Vehicle with excessive length",
+        "minFine": 200,
+        "maxFine": 200
+      },
+      {
+        "name": "(I) VC 35551a Overweight vehicle",
+        "minFine": 20,
+        "maxFine": 150
+      }
+    ]
+  },
+  {
+    "name": "Commercial Vehicle Enforcement Warnings",
+    "charges": [
+      {
+        "name": "(W) VC 24506 Failure to log hours",
+        "minFine": 0,
+        "maxFine": 0
+      },
+      {
+        "name": "(W) VC 24506 Failure to maintain logs",
+        "minFine": 0,
+        "maxFine": 0
+      },
+      {
+        "name": "(W) VC 21702 Driving over maximum hours",
+        "minFine": 0,
+        "maxFine": 0
+      },
+      {
+        "name": "(W) VC 35400 Vehicle with excessive length",
+        "minFine": 0,
+        "maxFine": 0
+      },
+      {
+        "name": "(W) VC 35551a Overweight vehicle",
+        "minFine": 0,
+        "maxFine": 0
+      }
+    ]
+  },
+  {
+    "name": "Other/Public Citations",
+    "charges": [
+      {
+        "name": "(I) VC 21955 Jaywalking",
+        "minFine": 196,
+        "maxFine": 196
+      },
+      {
+        "name": "(I) PC 415 Disturbing the peace",
+        "minFine": 100,
+        "maxFine": 400
+      },
+      {
+        "name": "(I) PC 602 Trespassing",
+        "minFine": 75,
+        "maxFine": 250
+      },
+      {
+        "name": "(I) PC 653y Misuse of 911",
+        "minFine": 50,
+        "maxFine": 250
+      },
+      {
+        "name": "(I) HS 11357(a)(1) Possession of marijuana by persons under 18",
+        "minFine": 25,
+        "maxFine": 100
+      },
+      {
+        "name": "(I) HS 11357(b)(1) Possession of more than 28.5 grams of marijuana",
+        "minFine": 50,
+        "maxFine": 250
+      }
+    ]
+  },
+  {
+    "name": "Other/Public Warnings",
+    "charges": [
+      {
+        "name": "(W) VC 21955 Jaywalking",
+        "minFine": 0,
+        "maxFine": 0
+      },
+      {
+        "name": "(W) PC 415 Disturbing the peace",
+        "minFine": 0,
+        "maxFine": 0
+      },
+      {
+        "name": "(W) PC 602 Trespassing",
+        "minFine": 0,
+        "maxFine": 0
+      },
+      {
+        "name": "(W) PC 653y Misuse of 911",
+        "minFine": 0,
+        "maxFine": 0
+      },
+      {
+        "name": "(W) HS 11357(a)(1) Possession of marijuana by persons under 18",
+        "minFine": 0,
+        "maxFine": 0
+      },
+      {
+        "name": "(W) HS 11357(b)(1) Possession of more than 28.5 grams of marijuana",
+        "minFine": 0,
+        "maxFine": 0
+      }
+    ]
+  }
+]

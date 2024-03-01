@@ -1,0 +1,589 @@
+body {
+  background-color: var(--background-color);
+  color: var(--main-color);
+  font-family: var(--main-font);
+}
+
+body button,
+body input {
+  font-family: var(--main-font);
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: var(--header-height);
+  z-index: 1;
+  font-size: 0;
+  display: grid;
+  grid-auto-flow: column;
+  gap: 2px;
+  background-color: var(--accent-color);
+  overflow-x: auto;
+}
+
+.header button {
+  padding: 0 20px;
+  margin: 0;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid transparent;
+  border-top: 4px solid transparent;
+  border-radius: 0;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: var(--second-background-color);
+  color: var(--accent-color);
+  transition: 50ms linear;
+}
+
+.header button:hover,
+.header button:focus,
+.header button.selected {
+  border-bottom-color: var(--accent-color);
+  opacity: 0.8;
+}
+
+.header button:active {
+  border-bottom: 4px solid var(--accent-color);
+}
+
+.content {
+  position: fixed;
+  left: 0;
+  width: 100%;
+  height: calc(100% - var(--header-height));
+  top: var(--header-height);
+}
+
+.content > * {
+  width: 100%;
+  height: 100%;
+}
+
+.mapPage iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.mapPage input {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  height: auto;
+  width: auto;
+  border: none;
+  background-color: var(--second-background-color);
+  color: var(--accent-color);
+  outline: none;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 10px;
+}
+
+.searchCarPage .resultContainer,
+.searchPedPage .resultContainer {
+  width: calc(100% - 60px);
+  margin: 30px;
+  height: calc(100% - 60px - 42px - 20px);
+  overflow-y: auto;
+}
+
+.searchCarPage .resultContainer .name,
+.searchPedPage .resultContainer .name,
+.shiftPage .title {
+  width: auto;
+  height: auto;
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.searchPedPage .citationArrestContainer {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+  height: auto;
+  margin: 15px;
+  margin-top: 50px;
+  width: calc(100% - 40px);
+}
+
+.searchPedPage .citationArrestContainer .informationLabel {
+  width: calc(100% - 10px);
+}
+
+.searchPedPage .reportContainer .searchCharge {
+  margin: 2px;
+  width: calc(100% - 10px - 4px - 4px);
+}
+
+.alphabetPage .container {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  height: calc(100% - 20px);
+  margin: 20px;
+  width: calc(100% - 40px);
+}
+
+.alphabetPage .container .name {
+  font-size: 32px;
+  font-weight: 800;
+  width: auto;
+  height: auto;
+}
+
+.alphabetPage .container .label {
+  height: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.alphabetPage .container .list {
+  font-family: monospace;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: auto;
+}
+
+.alphabetPage .container .item {
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+  width: fit-content;
+  height: auto;
+}
+
+.alphabetPage .container .list .letter {
+  color: var(--second-accent-color);
+  margin-right: 10px;
+}
+
+.searchPedPage .reportContainer .result .btn {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: monospace;
+  padding: 5px;
+  border: none;
+  color: var(--main-color);
+  outline: none;
+  cursor: pointer;
+  transition: 50ms linear;
+  background-color: transparent;
+  width: calc(100% - 10px);
+  margin: 5px;
+  text-align: left;
+}
+
+.searchPedPage .reportContainer .result .btn:hover,
+.searchPedPage .reportContainer .result .btn:focus {
+  background-color: var(--warning-color-half);
+}
+
+.searchPedPage .reportContainer .result .btn::before {
+  content: '• ';
+}
+
+.searchPedPage .citationReport .result .charges,
+.searchPedPage .arrestReport .result .charges {
+  overflow: auto;
+  height: 50%;
+}
+
+.courtPage .list .title {
+  font-size: 32px;
+  font-weight: 800;
+  margin: 20px;
+}
+
+.courtPage .informationLabelContainer:not(:last-child) {
+  padding-bottom: 15px;
+  border-bottom: 2px solid var(--second-accent-color-half);
+}
+
+.courtPage .list {
+  height: calc(100% - 82px);
+  overflow-y: auto;
+}
+
+/* for old court data */
+.courtPage summary {
+  margin: 0;
+  cursor: pointer;
+  outline: none;
+}
+.courtPage summary::marker {
+  color: var(--second-accent-color);
+}
+
+.courtPage details div {
+  margin-left: 21px;
+}
+
+.shiftPage .btnContainer button:disabled {
+  opacity: 0.75;
+  cursor: not-allowed;
+}
+
+.shiftPage .currentShift {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 15px;
+  width: auto;
+  height: auto;
+  gap: 20px 50px;
+}
+
+.shiftPage .currentShiftNotes {
+  background-color: transparent;
+  color: var(--main-color);
+  border: var(--second-accent-color) 2px solid;
+  outline: none;
+  font-size: 20px;
+  font-weight: 400;
+  resize: none;
+  height: 250px;
+  width: 250px;
+  padding: 10px;
+}
+
+.shiftPage .shiftNotes,
+.courtPage .description {
+  font-family: monospace;
+  background-color: transparent;
+  color: var(--main-color);
+  border: var(--second-accent-color) 2px solid;
+  outline: none;
+  font-size: 20px;
+  font-weight: 400;
+  resize: none;
+  height: fit-content;
+  width: fit-content;
+  padding: 10px;
+}
+
+.shiftPage .courtCaseValue {
+  cursor: pointer;
+}
+
+.shiftPage .courtCaseValue::before {
+  content: '• ';
+  transition: 50ms linear;
+}
+
+.shiftPage .courtCaseValue:hover::before {
+  color: var(--second-accent-color);
+}
+
+.shiftPage .list .informationLabelContainer:not(:first-child) {
+  border-top: 2px solid var(--second-accent-color-half);
+  padding-top: 15px;
+}
+
+.shiftPage .title {
+  margin-left: 15px;
+}
+
+.shiftPage {
+  overflow-y: auto;
+}
+
+.shiftPage .incidentReport {
+  margin: 0;
+  padding: 20px;
+}
+
+.shiftPage .incidentReport .headerButtonContainer {
+  margin-bottom: 10px;
+}
+
+.shiftPage .incidentReport .options .line {
+  margin: 10px 2px;
+  width: calc(100% - 4px);
+  height: 2px;
+  background-color: var(--second-accent-color-half);
+}
+
+.shiftPage .incidentReport .result #incidentNumber {
+  font-family: monospace;
+  height: auto;
+  width: calc(100% - 10px - 4px - 10px);
+  font-size: 20px;
+  font-weight: 600;
+  padding: 5px;
+  margin: 5px;
+  border: 2px solid var(--second-accent-color);
+  background-color: var(--background-color);
+  color: var(--main-color);
+  outline: none;
+  transition: 50ms linear;
+}
+
+.shiftPage .incidentReport .result #incidentDescription {
+  position: relative;
+  font-family: monospace;
+  resize: none;
+  height: calc(100% - 172px);
+  min-height: 250px;
+  width: calc(100% - 10px - 4px - 10px);
+  font-size: 16px;
+  font-weight: 400;
+  padding: 5px;
+  margin: 5px 5px 0 5px;
+  border: 2px solid var(--second-accent-color);
+  background-color: var(--background-color);
+  color: var(--main-color);
+  outline: none;
+  transition: 50ms linear;
+}
+
+/* remove border radius on iOS */
+input {
+  border-radius: 0;
+}
+
+.overlay {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 3;
+}
+
+.currentID {
+  pointer-events: all;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  height: 200px;
+  width: 350px;
+  background-color: var(--second-background-color);
+  padding: 5px 15px 15px 15px;
+  border-radius: 10px;
+  transform-style: preserve-3d;
+}
+
+.currentID .title {
+  display: grid;
+  grid-auto-flow: column;
+  border-bottom: 2px solid var(--accent-color);
+}
+
+.currentID .title .sa {
+  color: var(--accent-color);
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.currentID .title .dl {
+  color: var(--accent-color);
+  font-size: 20px;
+  font-weight: 600;
+  align-self: center;
+}
+
+.currentID .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 10px;
+}
+
+.currentID .container img {
+  width: 154px;
+  aspect-ratio: 1/ 1;
+  align-self: center;
+}
+
+.currentID .properties {
+  color: var(--background-color);
+  align-self: center;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.currentID .properties * {
+  margin-bottom: 5px;
+}
+
+.currentID .properties :before {
+  color: var(--accent-color);
+  margin-right: 5px;
+}
+
+.currentID .properties .fname:before {
+  content: 'FN';
+}
+
+.currentID .properties .lname:before {
+  content: 'LN';
+}
+
+.currentID .properties .dob:before {
+  content: 'DOB';
+}
+
+.currentID .properties .gender:before {
+  content: 'SEX';
+}
+
+.currentID .closeCurrentID,
+.currentID .nextCurrentID {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: monospace;
+  padding: 5px;
+  border: 2px solid var(--warning-color);
+  border-radius: 0;
+  color: var(--main-color);
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  text-align: left;
+}
+
+.currentID .nextCurrentID {
+  border-color: var(--second-accent-color);
+}
+
+.currentID .closeCurrentID:hover {
+  background-color: var(--warning-color-half);
+}
+
+.currentID .nextCurrentID:hover {
+  background-color: var(--second-accent-color-half);
+}
+
+.currentID .backgroundWrapper {
+  position: absolute;
+  display: grid;
+  grid-template-columns: 1fr max-content max-content;
+  gap: 5px;
+  top: 0;
+  border-radius: 5px 5px 0 0;
+  background-color: var(--background-color);
+  width: calc(100% - 30px - 10px);
+  height: 35px;
+  padding: 5px;
+  transform: translateZ(-1px);
+  transition: 200ms ease-out;
+}
+
+.currentID:hover .backgroundWrapper {
+  top: -45px;
+}
+
+.currentID .currentIDPedType {
+  font-family: monospace;
+  font-size: 16px;
+  font-weight: 400;
+  width: fit-content;
+  align-self: center;
+}
+
+.showCurrentID-container {
+  position: fixed;
+  background-color: var(--background-color);
+  z-index: 2;
+  bottom: 10px;
+  right: 10px;
+}
+
+.showCurrentID {
+  pointer-events: all;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: monospace;
+  padding: 5px;
+  border: 2px solid var(--second-accent-color);
+  color: var(--main-color);
+  outline: none;
+  cursor: pointer;
+  transition: 50ms linear;
+  background-color: transparent;
+  text-align: left;
+}
+
+.showCurrentID:hover {
+  background-color: var(--second-accent-color-half);
+}
+
+.currentID .hideCurrentID {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: monospace;
+  padding: 5px;
+  border: 2px solid var(--warning-color);
+  color: var(--background-color);
+  outline: none;
+  cursor: pointer;
+  transition: 50ms linear;
+  background-color: transparent;
+  opacity: 0;
+}
+
+.currentID:hover .hideCurrentID {
+  opacity: 1;
+}
+
+.currentID .hideCurrentID:hover {
+  background-color: var(--warning-color-half);
+}
+
+.overlay .customizationLink {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: var(--second-accent-color);
+  font-size: 16px;
+  font-weight: 400;
+  font-family: monospace;
+  padding: 2px;
+  pointer-events: all;
+  background-color: var(--background-color);
+}
+
+.calloutPage .informationLabelContainer {
+  margin: 20px;
+  display: grid;
+  grid-auto-flow: column;
+}
+
+.calloutPage .calloutDetails {
+  background-color: var(--background-color);
+  color: var(--main-color);
+  border: 2px solid var(--second-accent-color);
+  font-family: monospace;
+  font-size: 20px;
+  padding: 10px;
+  font-weight: 400;
+  line-height: 1.6;
+  margin: 20px;
+  margin-top: 5px;
+  width: calc(100% - 40px - 20px - 4px);
+  height: calc(100% - 25px - 20px - 63px - 40px);
+  resize: none;
+}
+
+.calloutPage .calloutDetails .systemMessage {
+  opacity: 0.5;
+}
+
+.calloutPage .title {
+  font-size: 32px;
+  font-weight: 800;
+  margin: 20px;
+}
+
+/* overwrite */
+.hidden {
+  display: none;
+  visibility: hidden;
+}

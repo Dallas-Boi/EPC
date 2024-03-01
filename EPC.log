@@ -1,0 +1,60 @@
+[2024-02-29T23:43:06.511Z] EPC server log initialized
+[2024-02-29T23:43:06.512Z] Version: 1.4.1
+[2024-02-29T23:43:06.512Z] Timezone offset: 300
+[2024-02-29T23:43:06.513Z] Log path: D:\SteamLibrary\steamapps\common\Grand Theft Auto V\EPC\EPC.log
+[2024-02-29T23:43:06.514Z] Config:
+  useStopThePed: true
+  useLSPDFROwner: false
+  showCurrentID: true
+  autoShowCurrentID: true
+  warningColorsForPedCarSearch: true
+  arrestedWithWarrantChance: 0.2
+  arrestedWithoutWarrantChance: 0.05
+  additionalArrestChance: 0.1
+  citationChance: 0.4
+  additionalCitationChance: 0.4
+  probationChance: 0.25
+  paroleChance: 0.3
+  showCustomizationLink: true
+  replaceStaticWithCustomLanguage: false
+  port: 80
+  defaultMapZoom: 1.5
+  showCalloutPage: true
+  autoShowCalloutPage: true
+  updateCalloutPageInterval: 2000
+  clearCalloutPageTime: null
+  automaticIncidentReports: true
+  thisPlayerName: Dallas
+[2024-02-29T23:43:06.515Z] Custom files:
+  js: Default 0 Custom 4754
+  css: Default 458 Custom 458
+[2024-02-29T23:43:06.517Z] Data files:
+  callout.data: Default 0 Data 0
+  cars.json: Default 2 Data 2
+  court.json: Default 2 Data 16711
+  currentID.data: Default 0 Data 0
+  peds.json: Default 2 Data 6432
+  shift.json: Default 33 Data 3915
+  worldCars.data: Default 0 Data 598
+  worldPeds.data: Default 0 Data 777
+[2024-02-29T23:43:06.520Z] EPC Directory:
+  [File] #start.bat
+  [File] arrestOptions.json
+  [File] citationOptions.json
+  [File] config.json
+  [File] custom.css
+  [File] custom.js
+  [Directory] customization
+  [Directory] data
+  [Directory] defaults
+  [File] EPC.log
+  [Directory] img
+  [Directory] imgDefaults
+  [File] index.js
+  [File] language.json
+  [File] licenseOptions.json
+  [Directory] main
+  [Directory] node_modules
+  [File] package-lock.json
+  [File] package.json
+[2024-02-29T23:43:06.542Z] Server listening on port 80

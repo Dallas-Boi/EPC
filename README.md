@@ -1,0 +1,2 @@
+<h2>THIS IS NOT MY FILE</h2>
+<p>External Police Computer is made by <a href="https://github.com/jullevistrunz/ExternalPoliceComputer"><b>Hjullevistrunz</b></a>. This verison is Just a Modified Version for the use of google sheets for reporting Arrest / Citation.</p>
